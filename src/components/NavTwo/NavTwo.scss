@@ -1,0 +1,54 @@
+.navTwo{
+    background: #373D41;
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    overflow: hidden;
+    & div{
+        text-align: center;
+        float: left;
+    }
+    & .navTwo-left{
+        & i{
+            width: 50px;
+            font-size: 25px;
+            line-height: 50px;
+        }
+        & i:hover{
+            background: #2A2F32;
+            color: #009688;
+        }
+        & div{
+            padding: 0 20px;
+            line-height: 50px;
+        }
+        & div:hover{
+            background: #2A2F32;
+            color: #009688;
+        }
+    }
+    
+    & .navtwo-right{
+        float: right;
+        & .navtwo-right-img{
+            float: left;
+            width: 50px;
+            height: 50px;
+        }
+        & div{
+            line-height: 50px;
+            padding: 0 10px;
+        }
+        & i{
+            float: right;
+            font-size: 20px;
+            line-height: 50px;
+            margin-right: 20px;
+        }
+    }
+    & .navtwo-right:hover{
+        background: #2A2F32;
+        color: #009688;
+    }
+}
