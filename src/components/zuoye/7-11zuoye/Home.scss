@@ -1,0 +1,30 @@
+.box{
+    padding: 70px;
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    border: 2px solid red;
+    .from-label{
+        display: block;
+        margin-top: 20px;
+        .inp{
+            width: 100%;
+            border-radius: 5px;
+        }
+        .text{
+            border: 1px solid gray;
+        }
+        .register{
+            float: right;
+            background: blue;
+            color: white;
+            border: none;
+        }
+        .login{
+            background: skyblue;
+            border: none;
+        }
+    }
+}
+
+

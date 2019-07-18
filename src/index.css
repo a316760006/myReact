@@ -12,15 +12,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+a{text-decoration:none}
 #root{
   height: 100%;
   width: 100%;
-}
-.html{
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
 }
 .box{
   height: 100%;
