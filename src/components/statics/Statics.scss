@@ -12,8 +12,22 @@
     border: 1px solid #ccc;
     padding: 10px;
     margin-top: 20px;
-    p{
-        display: block;
+    ul{
+        width: 97%;
+        margin-left: 20px;
+        li{
+            padding-left: 15px;
+            text-indent: -1em;
+        }
+        li:before {
+            content: "-";
+            font-family: monospace;
+            font-size: 20px;
+            padding-right: 5px;
+          }
+    }
+    ol{
+        margin-left: 50px;
         font-family: monospace;
         font-size: 20px;
     }

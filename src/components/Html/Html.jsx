@@ -9,6 +9,7 @@ import Statics from "../statics/Statics"
 import Statics1 from "../statics/Statics1"
 import Props from "../statics/Props"
 import Pperiod from "../statics/Pperiod"
+import DataTransfer from "../statics/DataTransfer"
 // import Zuoye10July from "../zuoye/7-10zuoye/Home"
 export default class Html extends Component {
     constructor() {
@@ -72,6 +73,9 @@ export default class Html extends Component {
             case "Pperiod":
                 dom = <Pperiod />;
                 break;
+            case "DataTransfer":
+                dom = <DataTransfer />;
+                break;
             case "7-17":
                 dom = <Zuoye17July />
                 break;
@@ -85,7 +89,7 @@ export default class Html extends Component {
                 dom = <Zuoye11July />;
                 break;
             default:
-                dom = <Zuoye17July />;
+                dom = <DataTransfer />;
                 break;
         }
         return (
@@ -130,6 +134,8 @@ export default class Html extends Component {
                                         <span>小结</span></li>
                                     <li onClick={() => this.onClickTwoli("Pperiod")}><i className="fa fa-file-text-o">&nbsp;&nbsp;</i>
                                         <span>生命周期</span></li>
+                                    <li onClick={() => this.onClickTwoli("DataTransfer")}><i className="fa fa-file-text-o">&nbsp;&nbsp;</i>
+                                        <span>上下文数据传递</span></li>
                                 </ul>
                             }
                             <li onClick={this.onClickLi3}>

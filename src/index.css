@@ -31,6 +31,6 @@ a{text-decoration:none}
 .flex-bw{
   justify-content: space-between;
 }
-li{
+ul>li{
   list-style: none;
 }

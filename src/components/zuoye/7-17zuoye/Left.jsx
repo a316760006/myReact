@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import MyContext from "./MyContext.js"
-import Left_child from "./Left_child"
+import LeftChild from "./LeftChild"
 export default class Child extends Component {
     render() {
         return (
@@ -8,11 +8,11 @@ export default class Child extends Component {
                 {
                     obj => {
                         return <div style={{ float: "left", height: "260px", width: "200px", margin: "20px", background: obj.cbg }}>
-                            <Left_child />
-                            <Left_child />
-                            <Left_child />
-                            <Left_child />
-                            <Left_child />
+                            <LeftChild />
+                            <LeftChild />
+                            <LeftChild />
+                            <LeftChild />
+                            <LeftChild />
                         </div>
                     }
                 }

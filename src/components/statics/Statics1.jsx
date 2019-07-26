@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import "./Statics.scss"
 export default class Statics1 extends Component {
-    constructor() {
-        super()
-    }
     render() {
         let left = `{`
         let right = `}`
@@ -14,9 +11,11 @@ export default class Statics1 extends Component {
                 <h2>Class组件/容器组件</h2>
                 <hr />
                 <div className="Statics_box_gray">
-                    <pre>  - 特点: 功能强大,逻辑方法,生命周期,状态state都在class组件里</pre>
-                    <pre>  - 缺点: 渲染对比无状态组件较慢</pre>
-                    <pre>  - 特性: 会被实例化</pre>
+                    <ul>
+                        <li> 特点: 功能强大,逻辑方法,生命周期,状态state都在class组件里</li>
+                        <li> 缺点: 渲染对比无状态组件较慢</li>
+                        <li> 特性: 会被实例化</li>
+                    </ul>
                 </div>
                 <div className="Statics_box_gray">
                     <h3>写法: </h3>

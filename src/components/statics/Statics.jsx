@@ -10,10 +10,12 @@ export default function Statics() {
             <h2>无状态组件/ui组件</h2>
             <hr />
             <div className="Statics_box_gray">
-                <pre>  - 特点:加载快,渲染快</pre>
-                <pre>  - 功能:存放 dom</pre>
-                <pre>  - 特性:不需要实例化,没有this,只接受一个props</pre>
-                <p>无状态函数式组件形式上表现为一个只带有一个render方法的组件类，通过函数形式或者ES6 arrow function的形式在创建，并且该组件是无state状态的</p>
+                <ul>
+                    <li> 特点:加载快,渲染快</li>
+                    <li> 功能:存放 dom</li>
+                    <li> 特性:不需要实例化,没有this,只接受一个props</li>
+                    <li> 无状态函数式组件形式上表现为一个只带有一个render方法的组件类，通过函数形式或者ES6 arrow function的形式在创建，并且该组件是无state状态的</li>
+                </ul>
             </div>
             <div className="Statics_box_gray">
                 <h3>写法:</h3>
