@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import "./Html.scss"
 import Center from "../content/Center"
+import Zuoye26July from "../zuoye/7-26zuoye/Home"
 import Zuoye17July from "../zuoye/7-17zuoye/Home"
 import Zuoye15July from "../zuoye/7-15zuoye/Html"
 import Zuoye12July from "../zuoye/7-12zuoye/7-12"
@@ -20,7 +21,7 @@ export default class Html extends Component {
             isLi2: false,
             isLi3: false,
             content: "",
-            zuoye: ["7-11", "7-12", "7-15", "7-17"]
+            zuoye: ["7-11", "7-12", "7-15", "7-17", "7-26"]
         }
     }
     onClickDirection = () => {
@@ -87,6 +88,9 @@ export default class Html extends Component {
                 break;
             case "7-11":
                 dom = <Zuoye11July />;
+                break;
+            case "7-26":
+                dom = <Zuoye26July />;
                 break;
             default:
                 dom = <DataTransfer />;
